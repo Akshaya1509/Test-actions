@@ -14,5 +14,4 @@ jobs:
         # Specify the script here
         inlineScript: 
           az login
-          az vm list
     
