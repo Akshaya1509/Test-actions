@@ -1,0 +1,16 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Azure CLI Action
+      uses: Azure/cli@v1.0.0
+      with:
+        # Specify the script here
+        inlineScript: az vm list
+    
