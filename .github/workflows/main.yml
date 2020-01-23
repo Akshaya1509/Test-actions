@@ -12,5 +12,7 @@ jobs:
       uses: Azure/cli@v1.0.0
       with:
         # Specify the script here
-        inlineScript: az vm list
+        inlineScript: 
+          az login
+          az vm list
     
