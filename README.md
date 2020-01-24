@@ -4,7 +4,7 @@
 
 ### Troubleshooting 
 
-Following are the available Azure modules on hosted agents:
+Following are the available Azure PowerShell modules on hosted agents:
 
 Module | Versions 
 --- | --- 
