@@ -1,8 +1,8 @@
 # Test-action
 
-Azure PowerShell Task
+## Azure PowerShell Task
 
-Troubleshooting 
+### Troubleshooting 
 
 Following are the available Azure modules on hosted agents:
 Module | Versions 
