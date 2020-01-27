@@ -8,9 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Azure CLI Action
-      with:
-        # Specify the script here
-        inlineScript: 
-          echo "foo"
+      - name: print foo
+        run: echo 'foo'
+     
     
