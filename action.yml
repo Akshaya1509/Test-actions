@@ -1,5 +1,0 @@
-inputs:
-  numOctocats:
-    description: 'Number of Octocats'
-    required: false
-    default: '1'
