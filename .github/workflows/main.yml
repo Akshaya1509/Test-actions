@@ -9,9 +9,8 @@ jobs:
 
     steps:
     - name: Azure CLI Action
-      uses: Azure/cli@v1.0.0
       with:
         # Specify the script here
         inlineScript: 
-          az login
+          echo "foo"
     
