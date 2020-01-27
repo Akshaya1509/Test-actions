@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: print foo
-        run: echo 'foo'
+        run: echo ${INPUT_NUMOCTOCATS}
      
     
