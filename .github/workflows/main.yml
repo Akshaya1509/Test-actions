@@ -5,11 +5,11 @@ on: [push]
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Run a one-line script
       run: 
-        Get-Module -Name Storage -ListAvailable
+        Get-Module -Name Az.Accounts -ListAvailable
       shell:
         pwsh
