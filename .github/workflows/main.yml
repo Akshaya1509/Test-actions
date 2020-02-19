@@ -9,10 +9,7 @@ jobs:
 
     steps:
     - name: Run a one-line script
-      run: |
-        $modules = Get-Module -Name Az.Accounts -ListAvailable
-        Write-Host "======================"
-        Write-Host $modules.path
-        Write-Host "======================"
+      run: 
+        Get-Module -ListAvailable
       shell:
         pwsh
