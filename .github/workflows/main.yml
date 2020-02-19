@@ -10,6 +10,6 @@ jobs:
     steps:
     - name: Run a one-line script
       run: 
-        Get-Module -ListAvailable
+        Get-Module -Name Storage -ListAvailable
       shell:
         pwsh
